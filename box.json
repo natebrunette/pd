@@ -1,0 +1,16 @@
+{
+    "chmod": "0755",
+    "directories": [
+        "src"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "in": "vendor"
+        }
+    ],
+    "git-version": "package_version",
+    "main": "bin/pd.php",
+    "output": "build/pd.phar",
+    "stub": true
+}
